@@ -10,4 +10,9 @@
 2. Store data like name,email,password (bcrypt.js -> hash password) in mongodb using mongoose odm model. in login it can also be validated from backend like used is already regsitered or not. if yes then do login else do signup.
 3. Can compared password using bcrypt.js hash password.
 4. Can be used redux and Context Api for better store management than localStorage.
-5. I applied validation mannually , can be used react-hook-form or other libraries to apply validation much better. 
+5. I applied validation mannually , can be used react-hook-form or other libraries to apply validation much better.
+
+# Project Setup
+1. <p>npm create vite@latest<p> using vite 
+2. <p>npm i react-router-dom</p> for routing also exports some {Link,useNavigate hook for forced redirect,Routes,Route , createBrowserRouter} from this library. 
+3. <p>npm install tailwindcss @tailwindcss/vite</p> and add tailwindcss and plugins from official tailwind website with vite.
